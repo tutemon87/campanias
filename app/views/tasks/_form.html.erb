@@ -1,0 +1,86 @@
+<%= form_for(@task) do |f| %>
+  <% if @task.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@task.errors.count, "error") %> prohibited this task from being saved:</h2>
+
+      <ul>
+      <% @task.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_field :description %>
+  </div>
+  <div class="field">
+    <%= f.label :started_on %><br>
+    <%= f.date_select :started_on %>
+  </div>
+  <div class="field">
+    <%= f.label :expired_on %><br>
+    <%= f.date_select :expired_on %>
+  </div>
+  <div class="field">
+    <%= f.label :targeted_to %><br>
+   <%=  f.select :targeted_to, Task.targeted_tos.keys.map {|t| [t.titleize,t]}  %><br>
+  </div>
+  <div class="field">
+    <%= f.label :max %><br>
+   <%=  f.number_field :max  %><br>
+  </div>
+  <div class="field">
+    <%= f.label :min %><br>
+   <%=  f.number_field :min, :defualt => 1 %><br>
+  </div>
+  <div class="field">
+    <%= f.label :type %><br>
+    <%=  f.select :type, Task.types {|type| [type.titleize,type]}, :selected => params[:type]  %><br>
+  </div>
+  <div class="field">
+    <%= f.label :user_id, "Usuario" %><br>
+    <%= f.select :user_id, @users.map{ |u| [u.name, u.id] }, :selected => :user_id %><br>
+  </div>
+  <div id="specifics">
+  	<% case params[:type]  %>  
+      <% when "SurveyTask" %>
+      	<div id="survey">
+      		<div class="field">
+			    <%= f.label :survey_id, "Encuesta" %><br>
+			    <%= f.select :survey_id, @surveys.map{ |s| [s.name, s.id] }, :selected => :survey_id %><br>
+			</div>
+      	</div>
+	  <% when "SocialTask" %>
+	  	<div id="social">
+      		<div class="field">
+			    <%= f.label :action, "Red Social" %><br>
+			    <%=  f.select :action, SocialTask.actions.keys.map {|action| [action.titleize,action]}  %><br>
+			</div>
+      	</div>
+	  <% when "MeetingTask"%>
+	  	<div id="meeting">
+      		<div class="field">
+			    <%= f.label :location, "Lugar" %><br>
+			    <%=  f.text_field :location %><br>
+			</div>
+			<div class="field">
+			    <%= f.label :latitude, "Latitud" %><br>
+			    <%=  f.number_field :latitude , :step => 'any'%><br>
+			</div>
+			<div class="field">
+			    <%= f.label :longitude, "Longitud" %><br>
+			    <%= f.number_field :longitude , :step => 'any'%><br>
+			</div>
+      	</div>
+	<% end %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

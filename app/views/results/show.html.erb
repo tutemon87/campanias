@@ -1,0 +1,58 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <strong>Task:</strong>
+  <%= @result.task.name %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @result.user.name %>
+</p>
+
+<p>
+  <strong>Started date:</strong>
+  <%= @result.started_date %>
+</p>
+
+<p>
+  <strong>Ended date:</strong>
+  <%= @result.ended_date %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @result.comment %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @result.type %>
+</p>
+<% if @result.type == "SurveyResult"%>
+	<div class="survey">
+		<p>
+			<strong>Survey:</strong>
+			<%=@survey.name%>
+		</p>
+		<p>
+			<ul>
+				<%@result.answers.each do |answer|%>
+					<li>
+						<strong><%=answer.question.content%></strong><br/>
+						<%if answer.content %>
+							<%=asnwer.content%>
+						<%else%>
+							<%answer.options.each do |option|%>
+								<%=option.content%><br/>
+							<%end-%>
+						<%end-%>
+					</li>
+				<%end-%>
+			</ul>
+		</p>
+	</div>
+<%end-%>
+
+
+<%= link_to 'Edit', edit_result_path(@result) %> |
+<%= link_to 'Back', results_path %>

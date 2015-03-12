@@ -1,0 +1,21 @@
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: postgres
+  password: codewarrior1
+  pool: 5
+
+development:
+  <<: *default
+  database: campanias_development
+
+ 
+test:
+  <<: *default
+  database: campanias_test
+
+
+production:
+  <<: *default
+  database: campanias_production

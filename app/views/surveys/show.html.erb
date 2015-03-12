@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @survey.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @survey.description %>
+</p>
+<p>
+	<ol>
+		<% @survey.questions.each  do |question|%>
+			 <li>
+			 	<span style="font-weight:<%="bold" if question.is_required %>">
+			 		<%= question.content %>
+			 	</span><br>
+			 	max: <%= question.max_options%><br>
+			 	min: <%= question.min_options%><br>
+			 	<br/>
+			 	opciones:
+			 	<br/>
+			 	<ul type="square">
+			 		<% question.options.each do |option|%>
+			 		<li><%=option.content%></li>
+			 		<%end%>
+			 	</ul>
+			 </li> 
+		<%end%>
+	</ol>
+</p>
+<%= link_to 'Edit', edit_survey_path(@survey) %> |
+<%= link_to 'Back', surveys_path %>

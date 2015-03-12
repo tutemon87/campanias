@@ -1,0 +1,15 @@
+ <%
+  	question_id = f.object.attributes["question_id"] 
+  	question = Question.find(question_id) 
+  %>
+<p>
+  <h4><%= question.content%></h4>
+  <%= f.hidden_field :question_id, :value=>question_id%>
+  <%if question.options %>
+  	  <%= f.collection_check_boxes :option_ids, question.options, :id, :content %>
+  <%else%>
+	  <%= f.label :content, "Answer" %><br />
+	  <%= f.text_area :content, :rows => 3 %><br />
+  <%end%>
+</p>
+<hr/>
