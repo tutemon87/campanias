@@ -15,7 +15,7 @@ class ResultsController < ApplicationController
 
   # GET /results/new
   def new
-    if params["type"] == "SurveyResult"
+    if params[:type] == :SurveyResult
       @result = Result::SurveyResult.new
       @survey = Survey.find(params[:survey_id])
       @survey.questions.each do |question|

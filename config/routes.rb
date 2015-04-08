@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+#-----------------sessions--------------------
+  get    'signup'  => 'users#new'
+  get    'login'   => 'sessions#new'
+  post   'login'   => 'sessions#create'
+  delete 'logout'  => 'sessions#destroy'
+
+
    #---------------- tasks --------------------
    resources :results
    resources :simple_results,  controller: 'results', type: 'SimpleResult' 
@@ -16,7 +23,7 @@ Rails.application.routes.draw do
    #-----------------Surveys--------------------
    resources :surveys
 
-   
+  apipie
    get 'home/index'
 
  

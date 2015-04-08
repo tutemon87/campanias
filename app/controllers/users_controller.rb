@@ -1,14 +1,35 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
+  resource_description do
+    short "Administración de usuarios"
+  end
+  def_param_group :user do
+    param :user, Hash do
+      param :name, String, :desc => "Name of user", :required => true
+      param :email, String, :desc => "Email for login", :required => true
+      param :password, String, :desc => "Password for login", :required => true
+      param :avatar,String , :desc => "path of image avatar"
+    end
+  end
+
 
   # GET /users
   # GET /users.json
+  api :GET, "/users.json", "Recuperación de usuarios"
+  formats ['json']
+  description "Recupera del catalogo de usuarios todos los usuarios en el sistema."
+  example JSON.pretty_generate([User.new,User.new].as_json).to_s
   def index
     @users = User.all
   end
 
   # GET /users/1
   # GET /users/1.json
+
+  api :GET, "/users/:id.json", "Usuario especifico"
+  formats ['json']
+  description "Muestra los datos de un usuario en especifico"
+  example JSON.pretty_generate(User.new.as_json).to_s
   def show
   end
 
@@ -23,6 +44,10 @@ class UsersController < ApplicationController
 
   # POST /users
   # POST /users.json
+  api :POST, "/users", "Crear un usuario especifico"
+  formats ['json']
+  description "Crea un nuevo usuario"
+  param_group :user
   def create
     @user = User.new(user_params)
 

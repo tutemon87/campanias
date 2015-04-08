@@ -39316,3 +39316,3596 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-11 15:51:31
 
 
 Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-11 15:51:31 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-12 15:37:00 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (79.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Apipie::ApipiesController#index as HTML
+Completed 500 Internal Server Error in 128ms
+
+ArgumentError (wrong number of arguments (1 for 2..4)):
+  app/controllers/users_controller.rb:13:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (87.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-03-12 15:37:27 -0600
+
+ArgumentError (wrong number of arguments (1 for 2..4)):
+  app/controllers/users_controller.rb:13:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.0ms)
+
+
+Started GET "/users/show/1" for 127.0.0.1 at 2015-03-12 15:37:29 -0600
+
+ActionController::RoutingError (No route matches [GET] "/users/show/1"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (67.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (225.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-03-12 15:37:37 -0600
+
+ArgumentError (wrong number of arguments (1 for 2..4)):
+  app/controllers/users_controller.rb:13:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-03-12 15:37:43 -0600
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (38.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (144.0ms)
+Completed 200 OK in 10303ms (Views: 10141.0ms | ActiveRecord: 124.0ms)
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/completed_tasks.js?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/results.js?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/surveys.js?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/survey.js?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 15:37:54 -0600
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-03-12 15:37:58 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 149ms (Views: 144.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-03-12 15:38:13 -0600
+
+ArgumentError (wrong number of arguments (1 for 2..4)):
+  app/controllers/users_controller.rb:13:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-03-12 15:39:00 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 184ms (Views: 170.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/results.js?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/completed_tasks.js?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/survey.js?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/surveys.js?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 15:39:01 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-12 15:39:08 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/apipie-rails-0.3.1/app/views/apipie/apipies/_languages.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/apipie-rails-0.3.1/app/views/apipie/apipies/index.html.erb within layouts/apipie/apipie (24.0ms)
+Completed 200 OK in 139ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 15:39:08 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 15:39:08 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 15:39:08 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 15:39:08 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 15:39:08 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 15:39:08 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 15:39:08 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 15:39:08 -0600
+
+
+Started GET "/apipie/1.0/users/show.html" for 127.0.0.1 at 2015-03-12 15:39:14 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"show.html"}
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/apipie-rails-0.3.1/app/views/apipie/apipies/_languages.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/apipie-rails-0.3.1/app/views/apipie/apipies/_method_detail.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/apipie-rails-0.3.1/app/views/apipie/apipies/method.html.erb within layouts/apipie/apipie (8.0ms)
+Completed 200 OK in 135ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 15:39:14 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 15:39:14 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 15:39:14 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 15:39:14 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 15:39:14 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 15:39:14 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 15:39:14 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 15:39:14 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-12 15:39:20 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/apipie-rails-0.3.1/app/views/apipie/apipies/_languages.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/apipie-rails-0.3.1/app/views/apipie/apipies/index.html.erb within layouts/apipie/apipie (3.0ms)
+Completed 200 OK in 113ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 15:39:21 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 15:39:21 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 15:39:21 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 15:39:21 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 15:39:21 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 15:39:21 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 15:39:21 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 15:39:21 -0600
+
+
+Started GET "/surveys" for 127.0.0.1 at 2015-03-12 15:56:20 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SurveysController#index as HTML
+  [1m[35mSurvey Load (67.0ms)[0m  SELECT "surveys".* FROM "surveys"
+  Rendered surveys/index.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 404ms (Views: 294.0ms | ActiveRecord: 71.0ms)
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/completed_tasks.js?body=1" for 127.0.0.1 at 2015-03-12 15:56:21 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-03-12 15:56:22 -0600
+
+
+Started GET "/assets/results.js?body=1" for 127.0.0.1 at 2015-03-12 15:56:22 -0600
+
+
+Started GET "/assets/survey.js?body=1" for 127.0.0.1 at 2015-03-12 15:56:22 -0600
+
+
+Started GET "/assets/surveys.js?body=1" for 127.0.0.1 at 2015-03-12 15:56:22 -0600
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2015-03-12 15:56:22 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-12 15:56:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 15:56:22 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-12 15:56:23 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/_languages.erb (1.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (15.0ms)
+Completed 200 OK in 128ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 15:56:23 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 15:56:23 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 15:56:23 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 15:56:23 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 15:56:23 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 15:56:23 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 15:56:23 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 15:56:23 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-12 15:56:50 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (7.0ms)
+Completed 200 OK in 116ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 15:56:51 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 15:56:51 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 15:56:51 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 15:56:51 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 15:56:51 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 15:56:51 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 15:56:51 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 15:56:51 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-12 16:01:19 -0600
+Processing by Apipie::ApipiesController#index as HTML
+Completed 500 Internal Server Error in 121ms
+
+NoMethodError (undefined method `app_info' for ApplicationController:Class):
+  app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.0ms)
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-12 16:11:59 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/apipie_404.html.erb within layouts/apipie/apipie (1.0ms)
+Completed 404 Not Found in 248ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:11:59 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:11:59 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:11:59 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:11:59 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:11:59 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:11:59 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:11:59 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:11:59 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-12 16:14:39 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (2.0ms)
+Completed 200 OK in 125ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:14:40 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:14:40 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:14:40 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:14:40 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:14:40 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:14:40 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:14:40 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:14:40 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-12 16:14:59 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (2.0ms)
+Completed 200 OK in 153ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:15:00 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:15:00 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:15:00 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:15:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:15:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:15:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:15:00 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:15:00 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-12 16:16:25 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/apipie_404.html.erb within layouts/apipie/apipie (0.0ms)
+Completed 404 Not Found in 166ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:16:26 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:16:26 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:16:26 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:16:26 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:16:26 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:16:26 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:16:26 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:16:26 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-12 16:16:54 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (3.0ms)
+Completed 200 OK in 264ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:16:54 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:16:54 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:16:54 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:16:54 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:16:54 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:16:54 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:16:54 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:16:54 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-12 16:17:10 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/_languages.erb (1.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (2.0ms)
+Completed 200 OK in 146ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:17:10 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:17:10 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:17:10 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:17:10 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:17:10 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:17:10 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:17:10 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:17:10 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:17:12 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (5.0ms)
+Completed 200 OK in 131ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:17:13 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:17:13 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:17:13 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:17:13 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:17:13 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:17:13 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:17:13 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:17:13 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-12 16:17:15 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (3.0ms)
+Completed 200 OK in 125ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:17:16 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:17:16 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:17:16 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:17:16 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:17:16 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:17:16 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:17:16 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:17:16 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-12 16:18:46 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (2.0ms)
+Completed 200 OK in 136ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:18:47 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:18:47 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:18:47 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:18:47 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:18:47 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:18:47 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:18:47 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:18:47 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-12 16:18:48 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (2.0ms)
+Completed 200 OK in 118ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:18:49 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:18:49 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:18:49 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:18:49 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:18:49 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:18:49 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:18:49 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:18:49 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-12 16:18:56 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (2.0ms)
+Completed 200 OK in 142ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:18:57 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:18:57 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:18:57 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:18:57 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:18:57 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:18:57 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:18:57 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:18:57 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-12 16:20:11 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (3.0ms)
+Completed 200 OK in 126ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:20:11 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:20:11 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:20:11 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:20:11 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:20:11 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:20:11 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:20:11 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:20:11 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-12 16:21:41 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (3.0ms)
+Completed 200 OK in 118ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:21:41 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:21:41 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:21:41 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:21:41 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:21:41 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:21:41 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:21:41 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:21:41 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-12 16:22:19 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (3.0ms)
+Completed 200 OK in 156ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:22:20 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:22:20 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:22:20 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:22:20 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:22:20 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:22:20 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:22:20 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:22:20 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-12 16:22:31 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (2.0ms)
+Completed 200 OK in 131ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:22:32 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:22:32 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:22:32 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:22:32 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:22:32 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:22:32 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:22:32 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:22:32 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-12 16:23:13 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (2.0ms)
+Completed 200 OK in 133ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:23:14 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:23:14 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:23:14 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:23:14 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:23:14 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:23:14 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:23:14 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:23:14 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:23:16 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (5.0ms)
+Completed 200 OK in 114ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:23:17 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:23:17 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:23:17 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:23:17 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:23:17 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:23:17 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:23:17 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:23:17 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:24:14 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_params.html.erb (3.0ms)
+  Rendered apipie/apipies/_params.html.erb (7.0ms)
+  Rendered apipie/apipies/_method_detail.erb (9.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (12.0ms)
+Completed 200 OK in 134ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:24:14 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:24:14 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:24:14 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:24:14 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:24:14 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:24:14 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:24:14 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:24:14 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:25:10 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+Completed 500 Internal Server Error in 212ms
+
+NameError (uninitialized constant UsersController::List):
+  app/controllers/users_controller.rb:10:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (76.0ms)
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:25:19 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (1.0ms)
+  Rendered apipie/apipies/_params.html.erb (4.0ms)
+  Rendered apipie/apipies/_params.html.erb (9.0ms)
+  Rendered apipie/apipies/_method_detail.erb (13.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (21.0ms)
+Completed 200 OK in 273ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:25:20 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:25:20 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:25:20 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:25:20 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:25:20 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:25:20 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:25:20 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:25:20 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:25:35 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+Completed 500 Internal Server Error in 315ms
+
+NameError (uninitialized constant UsersController::Json):
+  app/controllers/users_controller.rb:10:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (82.0ms)
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:25:44 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+Completed 500 Internal Server Error in 219ms
+
+RuntimeError (Validator for JSON not found.):
+  app/controllers/users_controller.rb:18:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (84.0ms)
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:26:05 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (6.0ms)
+Completed 200 OK in 201ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:26:06 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:26:06 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:26:06 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:26:06 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:26:06 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:26:06 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:26:06 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:26:06 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:33:52 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+Completed 500 Internal Server Error in 133ms
+
+NoMethodError (undefined method `strip_heredoc' for #<Hash:0x68ad560>):
+  app/controllers/users_controller.rb:11:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.0ms)
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:35:39 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (4.0ms)
+Completed 200 OK in 166ms (Views: 9.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:35:40 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:35:40 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:35:40 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:35:40 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:35:40 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:35:40 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:35:40 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:35:40 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:35:51 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (6.0ms)
+Completed 200 OK in 254ms (Views: 22.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:35:51 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:35:51 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:35:51 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:35:51 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:35:51 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:35:51 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:35:51 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:35:52 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:39:00 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (4.0ms)
+Completed 200 OK in 155ms (Views: 9.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:39:00 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:39:00 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:39:00 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:39:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:39:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:39:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:39:00 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:39:01 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-12 16:39:31 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (6.0ms)
+Completed 200 OK in 164ms (Views: 12.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:39:32 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:39:32 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:39:32 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:39:32 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:39:32 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:39:32 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:39:32 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:39:32 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-12 16:41:24 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (4.0ms)
+Completed 200 OK in 137ms (Views: 7.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:41:24 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:41:24 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:41:24 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:41:24 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:41:24 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:41:24 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:41:24 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:41:24 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-12 16:41:26 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (4.0ms)
+Completed 200 OK in 134ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:41:26 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:41:27 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:41:27 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:41:27 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:41:27 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:41:27 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:41:27 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:41:27 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-12 16:42:48 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+Completed 500 Internal Server Error in 127ms
+
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  app/controllers/users_controller.rb:12:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.0ms)
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-12 16:43:20 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+Completed 500 Internal Server Error in 174ms
+
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  app/controllers/users_controller.rb:12:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.0ms)
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-12 16:43:31 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+Completed 500 Internal Server Error in 268ms
+
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  app/controllers/users_controller.rb:12:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (67.0ms)
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-12 16:44:22 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (4.0ms)
+Completed 200 OK in 123ms (Views: 9.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:44:22 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:44:22 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:44:22 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:44:22 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:44:22 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:44:22 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:44:22 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:44:22 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:44:24 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (4.0ms)
+Completed 200 OK in 117ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:44:25 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:44:25 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:44:25 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:44:25 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:44:25 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:44:25 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:44:25 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:44:25 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-12 16:44:52 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (2.0ms)
+Completed 200 OK in 114ms (Views: 6.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:44:53 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:44:53 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:44:53 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:44:53 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:44:53 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:44:53 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:44:53 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:44:53 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:45:21 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (3.0ms)
+Completed 200 OK in 115ms (Views: 8.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 16:45:22 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 16:45:22 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 16:45:22 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 16:45:22 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 16:45:22 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 16:45:22 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 16:45:22 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 16:45:22 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 16:48:05 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+Completed 500 Internal Server Error in 127ms
+
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  app/controllers/users_controller.rb:12:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.0ms)
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 17:04:26 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+Completed 500 Internal Server Error in 183ms
+
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  app/controllers/users_controller.rb:12:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.0ms)
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 17:05:03 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+Completed 500 Internal Server Error in 173ms
+
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  app/controllers/users_controller.rb:12:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.0ms)
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 17:06:44 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (21.0ms)
+Completed 200 OK in 204ms (Views: 33.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 17:06:45 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 17:06:45 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 17:06:45 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 17:06:45 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 17:06:45 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 17:06:45 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 17:06:45 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 17:06:45 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 17:07:59 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (6.0ms)
+Completed 200 OK in 171ms (Views: 10.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 17:08:00 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 17:08:00 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 17:08:00 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 17:08:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 17:08:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 17:08:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 17:08:00 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 17:08:00 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 17:26:05 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (4.0ms)
+Completed 200 OK in 179ms (Views: 8.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 17:26:06 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 17:26:06 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 17:26:06 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 17:26:06 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 17:26:06 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 17:26:06 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 17:26:06 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 17:26:06 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 17:26:50 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+Completed 500 Internal Server Error in 135ms
+
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  app/controllers/users_controller.rb:12:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 17:28:54 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+Completed 500 Internal Server Error in 139ms
+
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  app/controllers/users_controller.rb:12:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.0ms)
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 17:29:14 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+Completed 500 Internal Server Error in 141ms
+
+NoMethodError (undefined method `pretty_print' for JSON:Module):
+  app/controllers/users_controller.rb:12:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.0ms)
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 17:30:59 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (7.0ms)
+Completed 200 OK in 207ms (Views: 15.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 17:31:00 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 17:31:00 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 17:31:00 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 17:31:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 17:31:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 17:31:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 17:31:00 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 17:31:00 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-12 17:40:38 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (15.0ms)
+Completed 200 OK in 156ms (Views: 22.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 17:40:39 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 17:40:39 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 17:40:39 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 17:40:39 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 17:40:39 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 17:40:39 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 17:40:39 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 17:40:39 -0600
+
+
+Started GET "/users" for 127.0.0.1 at 2015-03-12 17:40:52 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (100.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (418.0ms)
+Completed 200 OK in 840ms (Views: 689.0ms | ActiveRecord: 100.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-03-12 17:40:53 -0600
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-03-12 17:40:53 -0600
+
+
+Started GET "/users.json" for 127.0.0.1 at 2015-03-12 17:40:53 -0600
+Processing by UsersController#index as JSON
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.json.jbuilder (189.0ms)
+Completed 200 OK in 204ms (Views: 201.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-03-12 17:40:53 -0600
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-03-12 17:40:53 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-12 17:40:53 -0600
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2015-03-12 17:40:53 -0600
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-03-12 17:40:53 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-12 17:40:53 -0600
+
+
+Started GET "/users.json" for 127.0.0.1 at 2015-03-12 17:41:16 -0600
+Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.json.jbuilder (1.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-12 17:41:18 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (7.0ms)
+Completed 200 OK in 147ms (Views: 11.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 17:41:19 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 17:41:19 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 17:41:19 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 17:41:19 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 17:41:19 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 17:41:19 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 17:41:19 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 17:41:19 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-12 17:41:20 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (11.0ms)
+Completed 200 OK in 162ms (Views: 16.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 17:41:21 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 17:41:21 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 17:41:21 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 17:41:21 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 17:41:21 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 17:41:21 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 17:41:21 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 17:41:21 -0600
+
+
+Started GET "/api/users" for 127.0.0.1 at 2015-03-12 17:41:30 -0600
+
+ActionController::RoutingError (No route matches [GET] "/api/users"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (24.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (55.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (223.0ms)
+
+
+Started GET "/api/users" for 127.0.0.1 at 2015-03-12 17:41:54 -0600
+
+ActionController::RoutingError (No route matches [GET] "/api/users"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (12.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (175.0ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2015-03-12 17:41:57 -0600
+
+ActionController::RoutingError (No route matches [GET] "/docs"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (30.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (125.0ms)
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-12 17:42:23 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (3.0ms)
+Completed 200 OK in 197ms (Views: 7.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 17:42:24 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 17:42:24 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 17:42:24 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 17:42:24 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 17:42:24 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 17:42:24 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 17:42:24 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 17:42:24 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-12 17:42:27 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (4.0ms)
+Completed 200 OK in 134ms (Views: 7.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-12 17:42:28 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-12 17:42:28 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-12 17:42:28 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-12 17:42:28 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-12 17:42:28 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-12 17:42:28 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-12 17:42:28 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-12 17:42:28 -0600
+
+
+Started GET "/surveys" for 127.0.0.1 at 2015-03-13 09:48:56 -0600
+Processing by SurveysController#index as HTML
+  [1m[35mSurvey Load (90.0ms)[0m  SELECT "surveys".* FROM "surveys"
+  Rendered surveys/index.html.erb within layouts/application (582.1ms)
+Completed 200 OK in 1614ms (Views: 1274.1ms | ActiveRecord: 166.0ms)
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-13 09:48:58 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (23.0ms)
+Completed 200 OK in 395ms (Views: 126.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 09:48:59 -0600
+
+
+Started GET "/apipie/1.0/users/show.html" for 127.0.0.1 at 2015-03-13 09:49:02 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"show.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (50.0ms)
+Completed 200 OK in 230ms (Views: 74.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 09:49:02 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 09:49:02 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 09:49:02 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 09:49:02 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 09:49:02 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 09:49:02 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 09:49:02 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 09:49:02 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-13 11:29:16 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (32.0ms)
+Completed 200 OK in 223ms (Views: 79.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 11:29:17 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 11:29:17 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 11:29:17 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 11:29:17 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 11:29:17 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 11:29:17 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 11:29:17 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 11:29:17 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-13 14:33:48 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (1.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (17.0ms)
+Completed 200 OK in 182ms (Views: 22.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:33:48 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:33:48 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:33:48 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:33:48 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:33:48 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:33:48 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:33:48 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:33:48 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-13 14:35:01 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (41.0ms)
+Completed 200 OK in 241ms (Views: 46.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:35:01 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:35:01 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:35:01 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:35:01 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:35:01 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:35:01 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:35:01 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:35:01 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-13 14:35:19 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (2.0ms)
+Completed 200 OK in 147ms (Views: 6.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:35:20 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:35:20 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:35:20 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:35:20 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:35:20 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:35:20 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:35:20 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:35:20 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-13 14:36:58 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (35.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (109.0ms)
+Completed 200 OK in 435ms (Views: 143.0ms | ActiveRecord: 60.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:37:00 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:37:00 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:37:00 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:37:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:37:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:37:00 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:37:00 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:37:00 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-13 14:37:14 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (2.0ms)
+Completed 200 OK in 152ms (Views: 7.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:37:15 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:37:15 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:37:15 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:37:15 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:37:15 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:37:15 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:37:15 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:37:15 -0600
+
+
+Started GET "/apipie" for 127.0.0.1 at 2015-03-13 14:37:17 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (9.0ms)
+Completed 200 OK in 152ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:37:17 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:37:17 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:37:17 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:37:17 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:37:17 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:37:17 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:37:17 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:37:17 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-13 14:37:18 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (9.0ms)
+Completed 200 OK in 137ms (Views: 14.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:37:19 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:37:19 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:37:19 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:37:19 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:37:19 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:37:19 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:37:19 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:37:19 -0600
+
+
+Started GET "/apipie/1.0/users/index.html" for 127.0.0.1 at 2015-03-13 14:46:17 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"index.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (9.0ms)
+Completed 200 OK in 285ms (Views: 20.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:46:17 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:46:17 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:46:17 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:46:17 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:46:17 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:46:17 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:46:17 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:46:17 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-13 14:46:21 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/_params.html.erb (3.0ms)
+  Rendered apipie/apipies/_params.html.erb (9.0ms)
+  Rendered apipie/apipies/_method_detail.erb (42.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (60.0ms)
+Completed 200 OK in 228ms (Views: 66.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:46:21 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:46:21 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:46:21 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:46:21 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:46:21 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:46:21 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:46:21 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:46:21 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-13 14:46:46 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/_params.html.erb (4.0ms)
+  Rendered apipie/apipies/_params.html.erb (8.0ms)
+  Rendered apipie/apipies/_method_detail.erb (10.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (24.0ms)
+Completed 200 OK in 273ms (Views: 31.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:46:46 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:46:46 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:46:46 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:46:47 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:46:47 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:46:47 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:46:47 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:46:47 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-13 14:49:44 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+Completed 500 Internal Server Error in 224ms
+
+ArgumentError (wrong number of arguments (1 for 2..4)):
+  app/controllers/users_controller.rb:48:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (104.0ms)
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-13 14:49:58 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+Completed 500 Internal Server Error in 244ms
+
+RuntimeError (param group UsersController#address not defined):
+  app/controllers/users_controller.rb:9:in `block (2 levels) in <class:UsersController>'
+  app/controllers/users_controller.rb:49:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (61.0ms)
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-13 14:50:15 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/_params.html.erb (1.0ms)
+  Rendered apipie/apipies/_params.html.erb (7.0ms)
+  Rendered apipie/apipies/_method_detail.erb (12.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (25.0ms)
+Completed 200 OK in 248ms (Views: 31.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:50:16 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:50:16 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:50:16 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:50:16 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:50:16 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:50:16 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:50:16 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:50:16 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-13 14:51:56 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/_method_detail.erb (1.0ms)
+  Rendered apipie/apipies/_params.html.erb (2.0ms)
+  Rendered apipie/apipies/_params.html.erb (4.0ms)
+  Rendered apipie/apipies/_method_detail.erb (6.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (18.0ms)
+Completed 200 OK in 232ms (Views: 25.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 14:51:57 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 14:51:57 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 14:51:57 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 14:51:57 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 14:51:57 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 14:51:57 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 14:51:57 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 14:51:57 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-13 15:15:47 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/_params.html.erb (1.0ms)
+  Rendered apipie/apipies/_params.html.erb (3.0ms)
+  Rendered apipie/apipies/_method_detail.erb (6.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (14.0ms)
+Completed 200 OK in 194ms (Views: 18.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 15:15:47 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 15:15:47 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 15:15:47 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 15:15:47 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 15:15:47 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 15:15:47 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 15:15:47 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 15:15:47 -0600
+
+
+Started GET "/users.json" for 127.0.0.1 at 2015-03-13 15:15:59 -0600
+Processing by UsersController#index as JSON
+  [1m[35mUser Load (28.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.json.jbuilder (66.0ms)
+Completed 200 OK in 77ms (Views: 47.0ms | ActiveRecord: 28.0ms)
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-13 15:27:22 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (4.0ms)
+Completed 200 OK in 162ms (Views: 8.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/1.0/users/create.html" for 127.0.0.1 at 2015-03-13 15:27:25 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"create.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_params.html.erb (2.0ms)
+  Rendered apipie/apipies/_params.html.erb (4.0ms)
+  Rendered apipie/apipies/_method_detail.erb (5.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (9.0ms)
+Completed 200 OK in 146ms (Views: 13.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 15:27:26 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 15:27:26 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 15:27:26 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 15:27:26 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 15:27:26 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 15:27:26 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 15:27:26 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 15:27:26 -0600
+
+
+Started GET "/apipie/1.0/users/create.html" for 127.0.0.1 at 2015-03-13 15:27:29 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users", "method"=>"create.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_params.html.erb (4.0ms)
+  Rendered apipie/apipies/_params.html.erb (9.0ms)
+  Rendered apipie/apipies/_method_detail.erb (12.0ms)
+  Rendered apipie/apipies/method.html.erb within layouts/apipie/apipie (18.0ms)
+Completed 200 OK in 176ms (Views: 26.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 15:27:30 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 15:27:30 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 15:27:30 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 15:27:30 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 15:27:30 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 15:27:30 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 15:27:30 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 15:27:30 -0600
+
+
+Started GET "/apipie/1.0/users.html" for 127.0.0.1 at 2015-03-13 15:27:31 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0", "resource"=>"users.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/_method_detail.erb (0.0ms)
+  Rendered apipie/apipies/_params.html.erb (1.0ms)
+  Rendered apipie/apipies/_params.html.erb (3.0ms)
+  Rendered apipie/apipies/_method_detail.erb (5.0ms)
+  Rendered apipie/apipies/resource.html.erb within layouts/apipie/apipie (15.0ms)
+Completed 200 OK in 151ms (Views: 20.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 15:27:32 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 15:27:32 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 15:27:32 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 15:27:32 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 15:27:32 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 15:27:32 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 15:27:32 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 15:27:32 -0600
+
+
+Started GET "/apipie/1.0.html" for 127.0.0.1 at 2015-03-13 15:27:33 -0600
+Processing by Apipie::ApipiesController#index as HTML
+  Parameters: {"version"=>"1.0.html"}
+  Rendered apipie/apipies/_languages.erb (0.0ms)
+  Rendered apipie/apipies/index.html.erb within layouts/apipie/apipie (5.0ms)
+Completed 200 OK in 129ms (Views: 8.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap.min.css" for 127.0.0.1 at 2015-03-13 15:27:34 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/prettify.css" for 127.0.0.1 at 2015-03-13 15:27:34 -0600
+
+
+Started GET "/apipie/javascripts/bundled/bootstrap-collapse.js" for 127.0.0.1 at 2015-03-13 15:27:34 -0600
+
+
+Started GET "/apipie/stylesheets/application.css" for 127.0.0.1 at 2015-03-13 15:27:34 -0600
+
+
+Started GET "/apipie/stylesheets/bundled/bootstrap-responsive.min.css" for 127.0.0.1 at 2015-03-13 15:27:34 -0600
+
+
+Started GET "/apipie/javascripts/bundled/jquery-1.7.2.js" for 127.0.0.1 at 2015-03-13 15:27:34 -0600
+
+
+Started GET "/apipie/javascripts/bundled/prettify.js" for 127.0.0.1 at 2015-03-13 15:27:34 -0600
+
+
+Started GET "/apipie/javascripts/apipie.js" for 127.0.0.1 at 2015-03-13 15:27:34 -0600
+
+
+Started GET "/surveys" for 127.0.0.1 at 2015-03-18 11:44:56 -0600
+Processing by SurveysController#index as HTML
+  [1m[36mSurvey Load (430.0ms)[0m  [1mSELECT "surveys".* FROM "surveys"[0m
+  Rendered surveys/index.html.erb within layouts/application (2885.0ms)
+Completed 200 OK in 13431ms (Views: 9562.0ms | ActiveRecord: 478.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-18 11:45:17 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 374ms (Views: 373.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-03-18 11:45:18 -0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-03-18 11:45:18 -0600
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-03-18 11:45:18 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-03-18 11:45:18 -0600
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-03-18 11:45:18 -0600
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-03-18 11:45:18 -0600
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2015-03-18 11:45:18 -0600
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-03-18 11:45:18 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-18 11:45:18 -0600
+
+
+Started GET "/assets/completed_tasks.js?body=1" for 127.0.0.1 at 2015-03-18 11:45:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-18 11:45:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-18 11:45:19 -0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-03-18 11:45:19 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-18 11:45:19 -0600
+
+
+Started GET "/assets/results.js?body=1" for 127.0.0.1 at 2015-03-18 11:45:19 -0600
+
+
+Started GET "/assets/survey.js?body=1" for 127.0.0.1 at 2015-03-18 11:45:19 -0600
+
+
+Started GET "/assets/surveys.js?body=1" for 127.0.0.1 at 2015-03-18 11:45:19 -0600
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2015-03-18 11:45:19 -0600
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-03-18 11:45:19 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-18 11:45:19 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (63.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to FixPasswordColumnInUsers (20150408162812)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (47.0ms)[0m  [1mALTER TABLE "users" RENAME COLUMN "password" TO "password_digest"[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150408162812"]]
+  [1m[36m (74.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 12:10:54 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 13840ms (Views: 13804.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/completed_tasks.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/results.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:09 -0500
+
+
+Started GET "/assets/surveys.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:10 -0500
+
+
+Started GET "/assets/survey.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:10 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:10 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-04-08 12:11:10 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 12:19:18 -0500
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 14ms
+
+LoadError (cannot load such file -- bcrypt):
+  app/models/user.rb:2:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/helpers/sessions_helper.rb:10:in `current_user'
+  app/controllers/application_controller.rb:12:in `require_login'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (144.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 12:47:13 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (82.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 233ms (ActiveRecord: 82.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-08 12:47:14 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (117.0ms)
+Completed 200 OK in 529ms (Views: 528.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/completed_tasks.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/results.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/survey.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/surveys.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-08 12:47:15 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 190ms (Views: 190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/completed_tasks.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/results.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/survey.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/surveys.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:02 -0500
+
+
+Started GET "/surveys" for 127.0.0.1 at 2015-04-08 12:50:06 -0500
+Processing by SurveysController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_login rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-08 12:50:06 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 179ms (Views: 178.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:06 -0500
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:06 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:06 -0500
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:06 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/completed_tasks.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/results.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/survey.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/surveys.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-08 12:50:07 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-08 16:08:31 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (213.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1386ms (ActiveRecord: 213.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-08 16:08:44 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (191.0ms)
+Completed 200 OK in 2140ms (Views: 2115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-04-08 16:08:46 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/completed_tasks.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/results.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/survey.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/surveys.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-08 16:08:47 -0500
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:21:49 -0500
+Processing by SurveysController#index as JSON
+  [1m[35mSurvey Load (297.0ms)[0m  SELECT "surveys".* FROM "surveys"
+  Rendered surveys/index.json.jbuilder (1528.2ms)
+Completed 200 OK in 1652ms (Views: 842.1ms | ActiveRecord: 750.1ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2015-04-08 16:22:11 -0500
+Processing by SurveysController#index as */*
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-08 16:22:11 -0500
+Processing by SessionsController#new as */*
+  Rendered sessions/new.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 339ms (Views: 338.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:22:18 -0500
+Processing by SurveysController#index as JSON
+  [1m[35mSurvey Load (1.0ms)[0m  SELECT "surveys".* FROM "surveys"
+  Rendered surveys/index.json.jbuilder (2.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:25:31 -0500
+Processing by SurveysController#index as JSON
+  [1m[36mSurvey Load (1.0ms)[0m  [1mSELECT "surveys".* FROM "surveys"[0m
+  Rendered surveys/index.json.jbuilder (9.0ms)
+Completed 200 OK in 22ms (Views: 14.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:29:02 -0500
+Processing by SurveysController#index as JSON
+  [1m[35mSurvey Load (1.0ms)[0m  SELECT "surveys".* FROM "surveys"
+  Rendered surveys/index.json.jbuilder (7.0ms)
+Completed 200 OK in 23ms (Views: 12.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:33:06 -0500
+Processing by SurveysController#index as JSON
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 20ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:34:04 -0500
+Processing by SurveysController#index as JSON
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:36:34 -0500
+Processing by SurveysController#index as JSON
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:38:19 -0500
+Processing by SurveysController#index as JSON
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:42:33 -0500
+Processing by SurveysController#index as JSON
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:42:46 -0500
+Processing by SurveysController#index as JSON
+  [1m[36mSurvey Load (1.0ms)[0m  [1mSELECT "surveys".* FROM "surveys"[0m
+  Rendered surveys/index.json.jbuilder (7.0ms)
+Completed 200 OK in 22ms (Views: 12.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:44:22 -0500
+Processing by SurveysController#index as JSON
+  [1m[35mSurvey Load (1.0ms)[0m  SELECT "surveys".* FROM "surveys"
+  Rendered surveys/index.json.jbuilder (4.0ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:49:27 -0500
+Processing by SurveysController#index as JSON
+  [1m[36mSurvey Load (1.0ms)[0m  [1mSELECT "surveys".* FROM "surveys"[0m
+  Rendered surveys/index.json.jbuilder (1.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/surveys.json" for 127.0.0.1 at 2015-04-08 16:49:48 -0500
+Processing by SurveysController#index as JSON
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2015-04-08 16:50:06 -0500
+Processing by SurveysController#index as HTML
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2015-04-08 16:50:10 -0500
+Processing by SurveysController#index as HTML
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2015-04-08 16:50:12 -0500
+Processing by SurveysController#index as HTML
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/surveys" for 127.0.0.1 at 2015-04-08 16:52:50 -0500
+Processing by SurveysController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 40ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-08 16:52:50 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 351ms (Views: 349.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_tasks.css?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/results.css?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/survey.css?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/surveys.css?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/completed_tasks.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/results.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/survey.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/surveys.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-08 16:52:51 -0500
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-08 16:58:40 -0500
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-08 16:58:41 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 242ms (Views: 242.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-08 16:58:41 -0500
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-08 16:58:41 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 149ms (Views: 148.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-08 16:58:42 -0500
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-08 16:58:42 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 169ms (Views: 169.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-04-08 16:58:42 -0500
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-04-08 16:58:42 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 175ms (Views: 175.0ms | ActiveRecord: 0.0ms)
