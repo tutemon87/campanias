@@ -1,5 +1,5 @@
 json.array!(@tasks) do |task|
-  json.extract! task, :id, :name, :description, :started_on, :expired_on, :targeted_to, :type
+  json.extract! task, :id, :name, :description, :started_on, :expired_on, :targeted_to, :type, :max, :min, :user_id
   case task
 	  when MeetingTask
 	    json.extract! task, :location,:latitude, :longitude, :date

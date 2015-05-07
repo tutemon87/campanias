@@ -1,0 +1,11 @@
+<%if !flash.empty? %>
+<div class="row">
+  <div class="col-md-12">
+    <% flash.each do |key,value| %>
+        <div class="alert alert-<%= key %>">
+          <p><%= value %></p>
+        </div>
+    <% end %>
+  </div>
+</div>
+<%end%>
