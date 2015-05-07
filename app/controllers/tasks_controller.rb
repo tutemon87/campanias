@@ -8,6 +8,17 @@ class TasksController < ApplicationController
     @tasks = tasks_by_type.all
   end
 
+  # GET /users/{id}/tasks
+  # GET /users/{id}/tasks.json
+  def my_tasks
+    user_id = params[:id]
+    @tasks = Task.where('tasks.user_id = ? AND
+                         max > (select count(*) from results where results.task_id = tasks.id) AND
+                         tasks.expired_on >= ?',user_id, Date.today)
+    render 'index'
+  end
+
+
   # GET /tasks/1
   # GET /tasks/1.json
   def show
@@ -70,9 +81,7 @@ class TasksController < ApplicationController
     
     def get_relations
       @users = User.all
-      if params["type"] == "SurveyTask"
-        @surveys= Survey.all
-      end
+      @surveys= Survey.all if params['type'] == 'SurveyTask'
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
@@ -84,15 +93,16 @@ class TasksController < ApplicationController
     end
     
     def set_type
+
        @type = get_type 
     end
     
-    def get_type 
-        Task.types.include?(params[:type]) ? params[:type] : "SimpleTask"
+    def get_type
+        Task.types.include?(params[:type]) ? params[:type] : 'Task'
     end
 
-    def tasks_by_type 
-        get_type.constantize 
+    def tasks_by_type
+      get_type.constantize
     end
     
 end

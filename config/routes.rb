@@ -1,25 +1,29 @@
 Rails.application.routes.draw do
-#-----------------sessions--------------------
-  get    'signup'  => 'users#new'
-  get    'login'   => 'sessions#new'
-  post   'login'   => 'sessions#create'
-  delete 'logout'  => 'sessions#destroy'
+   #-----------------sessions--------------------
+   get    'signup'  => 'users#new'
+   get    'login'   => 'sessions#new'
+   post   'login'   => 'sessions#create'
+   delete 'logout'  => 'sessions#destroy'
 
 
-   #---------------- tasks --------------------
+   #---------------- results --------------------
    resources :results
    resources :simple_results,  controller: 'results', type: 'SimpleResult' 
    resources :survey_results,  controller: 'results', type: 'SurveyResult'
+
    #---------------- tasks --------------------
    resources :tasks
    resources :simple_tasks,  controller: 'tasks', type: 'SimpleTask' 
    resources :survey_tasks,  controller: 'tasks', type: 'SurveyTask'
    resources :meeting_tasks, controller: 'tasks', type: 'MeetingTask' 
-   resources :social_tasks,  controller: 'tasks', type: 'SocialTask' 
+   resources :social_tasks,  controller: 'tasks', type: 'SocialTask'
+
+
    
   
    #-----------------Users--------------------
    resources :users
+   get 'users/:id/tasks' => 'tasks#my_tasks'
    #-----------------Surveys--------------------
    resources :surveys
 

@@ -1,5 +1,6 @@
 class Task < ActiveRecord::Base
   belongs_to :user
+  has_many :results
   enum targeted_to: [ :single, :general]
   scope :meetings, -> { where(type: 'MeetingTask')} 
   scope :surveys, ->  { where(type: 'SurveyTask') } 
